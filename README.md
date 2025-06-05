@@ -1,71 +1,81 @@
-# terminalgame
+# TerminalGame
 
-A terminal-based game application. (Please update this description with more details about the game).
+An interactive terminal-based game experience built with modern web technologies. Enjoy classic gaming nostalgia with contemporary gameplay mechanics.
 
-## Features
-- (Add features here)
+## 🎮 Features
 
-## Getting Started
+- **Terminal Interface** - Authentic terminal gaming experience
+- **Interactive Gameplay** - Engaging game mechanics and challenges
+- **Retro Aesthetics** - Classic green-on-black terminal styling
+- **Modern Performance** - Built with Next.js for smooth gameplay
+- **Responsive Design** - Works on desktop and mobile devices
+- **Progressive Enhancement** - JavaScript-enhanced but accessible
+
+## 🚀 Live Demo
+
+Visit the live application: [https://igor-kan.github.io/terminalgame](https://igor-kan.github.io/terminalgame)
+
+## 🛠️ Technologies Used
+
+- **Next.js 15** - React framework for production
+- **React 19** - User interface library
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Terminal Emulation** - Custom terminal interface components
+
+## 🏃‍♂️ Getting Started
 
 ### Prerequisites
-- Node.js (version 18 or higher)
-- npm (or pnpm, if `pnpm-lock.yaml` is used)
+- Node.js 18 or higher
+- npm or pnpm
 
 ### Installation
+
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/igor-kan/terminalgame.git
-    cd terminalgame
-    ```
+   ```bash
+   git clone https://github.com/igor-kan/terminalgame.git
+   cd terminalgame
+   ```
+
 2. Install dependencies:
-    ```bash
-    npm install 
-    # or
-    # pnpm install
-    ```
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
 
-### Running the Development Server
-To start the development server, run:
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🎯 How to Play
+
+1. **Start the Game**: Launch the application in your browser
+2. **Follow Instructions**: Read the on-screen prompts and commands
+3. **Use Terminal Commands**: Type commands to interact with the game
+4. **Enjoy**: Experience retro gaming with modern polish
+
+## 🕹️ Game Features
+
+- Interactive storyline
+- Command-based gameplay
+- Score tracking
+- Save/load game state
+- Multiple difficulty levels
+
+## 📦 Deployment
+
+This project is configured for GitHub Pages deployment:
+
 ```bash
-npm run dev
-# or
-# pnpm dev
+npm run deploy
 ```
-This will typically start the server on `http://localhost:3000`.
 
-## Technologies Used
-- (Likely Next.js, React, Tailwind CSS based on typical project structure, please confirm and update)
+## 📄 License
 
-## Deployment (GitHub Pages)
-
-You can deploy this project to GitHub Pages:
-
-1. **Build the static site:**
-   Many Next.js apps require `next export` after `next build` for static site generation. If this project is a standard Next.js app, you might need to update `package.json` scripts.
-    ```bash
-    npm run build 
-    # Potentially: npm run export (if using Next.js static export)
-    ```
-2. **Install `gh-pages`:**
-    ```bash
-    npm install --save-dev gh-pages
-    ```
-3. **Update `package.json`:**
-    Add `homepage` and `scripts` for deployment. The `deploy` script might need to point to the `out` directory if using `next export`.
-    ```json
-    {
-      "homepage": "https://igor-kan.github.io/terminalgame",
-      "scripts": {
-        "predeploy": "npm run build", // or "npm run build && npm run export"
-        "deploy": "gh-pages -d out" // or "-d build" or "-d dist" depending on the build output
-      }
-    }
-    ```
-    **Note:** Verify the correct build output directory (`out`, `build`, `dist`, etc.).
-4. **Deploy:**
-    ```bash
-    npm run deploy
-    ```
-
-## Custom Domain
-You can connect a custom domain to your deployed project. Refer to your hosting provider's documentation for instructions. 
+This project is open source and available under the [MIT License](LICENSE). 
