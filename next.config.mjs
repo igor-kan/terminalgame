@@ -9,6 +9,7 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   basePath: '/terminalgame',
+  assetPrefix: '/terminalgame/',
   images: {
     unoptimized: true,
   },
